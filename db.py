@@ -34,10 +34,3 @@ class Database:
 
 def __del__(self):
     self.conn.close()
-
-
-# db = Database('store.db')
-# db.insert("IIFL SEC",  "Bought", "1000@", "38")
-# db.insert("HDFC", "Bought;", "5@", "2077")
-# db.insert("HDFC BANK", "Bought;", "5@", "1246")
-# db.insert("IIFL SEC", "Sold;", "100@", "59.60")
